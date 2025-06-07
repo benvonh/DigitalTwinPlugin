@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/build/digital_twin_plugin/_deps/imgui-src",
+                "${workspaceFolder}/build/digital_twin_plugin/_deps/imgui-src/backends",
+                "${workspaceFolder}/src",
+                "C:\\Python38\\include",
+                "C:\\dev\\ros2_jazzy\\include\\**",
+                "C:\\usd\\include",
+                "${workspaceFolder}/DigitalTwin/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-msvc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compilerArgs": [
+                "/Zc:preprocessor"
+            ]
+        }
+    ],
+    "version": 4
+}
