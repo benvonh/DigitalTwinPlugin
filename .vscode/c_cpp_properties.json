@@ -9,7 +9,8 @@
                 "C:\\Python38\\include",
                 "C:\\dev\\ros2_jazzy\\include\\**",
                 "C:\\usd\\include",
-                "${workspaceFolder}/DigitalTwin/include"
+                "${workspaceFolder}/DigitalTwin/include",
+                "${workspaceFolder}/build/digital_twin_plugin/_deps/termcolor-src/include/termcolor"
             ],
             "defines": [
                 "_DEBUG",
